@@ -1,0 +1,32 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+body {
+    background-image: url('cat3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+img, button {
+    margin-top: 20px;
+}
